@@ -65,9 +65,12 @@ extra-categories = [(0, false), (1, true), (2, true), (3, false), (4, false)]
 blur-panel = false
 blur-dash = false
 blur-overview = true
+blur-appfolders = true
 blur-lockscreen = false
 blur-window-list = false
-hidetopbar = false
+hacks-level = 2
+static-blur = false
+hidetopbar = true
 
 ##################################
 # GNOME UI Improvements Settings #
