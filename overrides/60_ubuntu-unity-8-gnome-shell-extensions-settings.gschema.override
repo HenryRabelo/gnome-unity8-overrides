@@ -2,21 +2,27 @@
 # Ubuntu Unity 8 - GNOME Extensions Settings #
 ##############################################
 
+##################
+# Unite Settings #
+##################
+[org.gnome.shell.extensions.unite]
+show-desktop-name = true
+desktop-name-text = 'Ubuntu Desktop'
+window-buttons-theme = 'yaru'
+autofocus-windows = false
+enable-titlebar-actions = false
+show-legacy-tray = false
+greyscale-tray-icons = false
+hide-dropdown-arrows = false
+
 #########################
 # Dash to Dock Settings #
 #########################
 [org.gnome.shell.extensions.dash-to-dock]
-dock-position = 'LEFT'
-dock-fixed = true
-extend-height = true
 show-apps-at-top = true
 icon-size-fixed = true
-show-trash = true
-custom-background-color = true
-background-color = 'rgb(0,0,0)'
-background-opacity = 0.8
-customize-alphas = true
 transparency-mode = 'DYNAMIC'
+customize-alphas = true
 min-alpha = 0.8
 max-alpha = 0.9
 click-action = 'minimize-or-previews'
@@ -52,27 +58,25 @@ activate-on-hover = true
 alphabetize-all-programs = true
 extra-categories = [(0, false), (1, true), (2, true), (3, false), (4, false)]
 
-##################
-# Unite Settings #
-##################
-[org.gnome.shell.extensions.unite]
-hide-activities-button = 'always'
-hide-app-menu-icon = true
-extend-left-box = true
-hide-window-titlebars = 'maximized'
-show-window-buttons = 'maximized'
-show-window-title = 'maximized'
-window-buttons-placement = 'first'
-window-buttons-theme = 'yaru'
-notifications-position = 'right'
-reduce-panel-spacing = true
-show-desktop-name = true
-desktop-name-text = 'Desktop'
-autofocus-windows = false
-enable-titlebar-actions = false
-show-legacy-tray = false
-greyscale-tray-icons = false
-hide-dropdown-arrows = false
+##########################
+# Blur my Shell Settings #
+##########################
+[org.gnome.shell.extensions.blur-my-shell]
+blur-panel = false
+blur-dash = false
+blur-overview = true
+blur-lockscreen = false
+blur-window-list = false
+hidetopbar = false
+
+##################################
+# GNOME UI Improvements Settings #
+##################################
+[org.gnome.shell.extensions.gnome-ui-tune]
+hide-search = true
+always-show-thumbnails = true
+increase-thumbnails-size = true
+restore-thumbnails-background = true
 
 ######################
 # GSConnect Settings #
@@ -101,26 +105,6 @@ show-text = false
 show-seperators = false
 show-control-icons = false
 show-sources-menu = false
-
-##################################
-# GNOME UI Improvements Settings #
-##################################
-[org.gnome.shell.extensions.gnome-ui-tune]
-hide-search = true
-always-show-thumbnails = true
-increase-thumbnails-size = true
-restore-thumbnails-background = true
-
-##########################
-# Blur my Shell Settings #
-##########################
-[org.gnome.shell.extensions.blur-my-shell]
-blur-panel = false
-blur-dash = false
-blur-overview = true
-blur-lockscreen = false
-blur-window-list = false
-hidetopbar = false
 
 ##############################
 # Coverflow Alt Tab Settings #
