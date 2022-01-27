@@ -24,7 +24,7 @@ power-button-action = 'interactive'
 # Shortcuts #
 #############
 [org.gnome.shell.keybindings:Ubuntu]
-toggle-overview = ['<Super>w']
+toggle-overview = ['<Super>s','<Super>w']
 
 [org.gnome.settings-daemon.plugins.media-keys]
 home = ['<Super>f']
@@ -43,7 +43,7 @@ move-to-corner-ne = ['<Primary><Super>KP_Prior']
 move-to-corner-nw = ['<Primary><Super>KP_Home']
 move-to-corner-se = ['<Primary><Super>KP_Next']
 move-to-corner-sw = ['<Primary><Super>KP_End']
-show-desktop = ['<Primary><Super>d','<Primary><Alt>d','<Super>d']
+show-desktop = ['<Primary><Super>d','<Super>d']
 close = ['<Alt>F4','<Alt>q']
 switch-applications = ['<Super>Tab']
 switch-windows = ['<Alt>Tab']
